@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 
                 qrgEnCoder = QRGEncoder(idedit.text.toString(), null, QRGContents.Type.TEXT, dimen)
                 try {
-                    bitmap = qrgEnCoder!!.encodeAsBitmap()
+                    bitmap = qrgEnCoder!!.bitmap
                     qrcode.setImageBitmap(bitmap)
                 }catch (e: Exception){
                     Log.e("tag", e.toString())
