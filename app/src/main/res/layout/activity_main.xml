@@ -33,7 +33,7 @@
         app:rippleColor="@color/white"
         app:backgroundTint="@color/purple_500"
         android:layout_marginTop="30dp"
-        android:text="@string/information"
+        android:text="@string/generate_qr_code"
         android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
